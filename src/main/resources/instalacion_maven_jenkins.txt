@@ -1,0 +1,28 @@
+tar zxvf apache-maven-3.8.8-bin.tar
+cd /etc
+sudo nano paths
+agregar
+/Users/mananas/Maven/apache-maven-3.8.8/bin
+Salvar
+
+Cerrar terminal e iniciar otra
+Probar:
+mvn -v
+
+En eclipse
+Eclise > Settings
+>Terminal > Local Terminal
+En Arguments: --login
+
+Cerrar eclipse
+
+
+JENKINS
+Instalar homebrew
+Incoporporar al path
+/opt/homebrew/bin
+
+Install the latest LTS version: brew install jenkins-lts
+Start the Jenkins service: brew services start jenkins-lts
+Restart the Jenkins service: brew services restart jenkins-lts
+Update the Jenkins version: brew upgrade jenkins-lts
